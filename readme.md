@@ -1,0 +1,1 @@
+1. Setup Global styles first.
