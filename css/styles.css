@@ -159,6 +159,24 @@ p {
     padding: 4rem 1rem;
   }
 }
+
+/* 
+==========================
+Animation
+==========================
+*/
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 /* 
 ==========================
 Navbar
@@ -173,6 +191,9 @@ Navbar
   z-index: 1;
   cursor: pointer;
   /* animation */
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+  animation: bounce 2s ease infinite;
 }
 
 /* Navbar */
